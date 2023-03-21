@@ -61,7 +61,7 @@ function App() {
           onChange={firstNameHandler}
         />
         {isValid ? null : submit && formValues.firstName === "" ? (
-          <span className="text-red-500">Enter Your First Name </span>
+          <span className="text-red-500">Enter Your Last Name </span>
         ) : null}
         <input
           className="input"
@@ -71,7 +71,7 @@ function App() {
           onChange={lastNameHandler}
         />
         {isValid ? null : submit && formValues.lastName === "" ? (
-          <span className="text-red-500">Enter Your First Name </span>
+          <span className="text-red-500">Enter Your Email </span>
         ) : null}
 
         <input
