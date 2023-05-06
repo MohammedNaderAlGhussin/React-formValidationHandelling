@@ -11,8 +11,6 @@ function App() {
 
   const firstNameHandler = (e) => {
     setFormValues({ ...formValues, firstName: e.target.value });
-    if (e.target.value) {
-    }
   };
   const lastNameHandler = (e) => {
     setFormValues({ ...formValues, lastName: e.target.value });
